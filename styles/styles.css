@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(80, 165, 204);
+  }
+
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  h1 {
+    color: black;
+    text-align: center;
+  }
+
+  img.sobremi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  div {
+    border: 1px lightblue;
+    padding: 10px;
+   margin: 0px;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }  
+
+  form {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer {
+    width: 1;
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  iframe{
+    display: flex;
+    justify-items: flex-start;
+  }
