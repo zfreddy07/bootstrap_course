@@ -1,0 +1,143 @@
+body {
+    background-color:lightgoldenrodyellow
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    
+  }
+
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
+  div {
+    border: 1px lightblue;
+    padding: 10px;
+   margin: 0px;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+  }  
+
+  form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+  }
+  
+   iframe{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: lightgoldenrodyellow; 
+  }
+
+header {
+  padding: 50px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-image:url(../fondoazul.JPG);
+  
+}
+
+table, th, td {
+  border: 0px 
+}
+
+
+a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.sobremi {
+  background-color:lightgoldenrodyellow;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.soundcloud {
+  background-color:lightgoldenrodyellow;
+  margin: opx;
+  
+  
+  }
+
+  .discografia {
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+
+  }
+
+  .tours {
+    background-color: lightgoldenrodyellow;
+    margin: 20px;
+    font-size: 20px;
+  }
+
+  footer.derechos {
+    width: 1;
+    display: flex;
+    align-items: flex-end;
+    font-size: 20px;
+  }
+
+
+  div.background {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    justify-items: space-between;
+    background-color: rgb(15, 26, 59);
+    
+  }
+ 
+
+  .grid {
+    display:grid;
+    grid-template-areas: "head head" "menu menu" "titulo titulo" "foto1 foto2";
+  }
+  .a { grid-area:head; background: lightgoldenrodyellow; margin: 0px;margin: 0px;}
+  .b { grid-area:menu; margin-bottom: 20px;}
+  .c { grid-area:titulo; background:lightgoldenrodyellow}
+  .d { grid-area:foto1; background:lightgoldenrodyellow }
+  .e { grid-area:foto2; background: lightgoldenrodyellow}
+  
+   /* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: lightgoldenrodyellow; 
+  }
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: lightgoldenrodyellow; 
+  }
+}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: lightgoldenrodyellow; 
+  }
+}
